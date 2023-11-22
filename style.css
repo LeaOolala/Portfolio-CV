@@ -1,4 +1,4 @@
-main  {
+body  {
     background-color: rgb(79, 44, 28);
     padding: 1%
 }
@@ -10,6 +10,6 @@ p  {
     color: rgb(252, 252, 252);
 }
 
-.deux {
+section:nth-of-type(odd) {
     background-color: antiquewhite;
 }
