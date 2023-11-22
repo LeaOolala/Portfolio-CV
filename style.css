@@ -10,6 +10,22 @@ p  {
     color: rgb(252, 252, 252);
 }
 
-section:nth-of-type(odd) {
-    background-color: antiquewhite;
+.xp, .etudes, .why {
+    background-color:antiquewhite;
+}
+.competences {
+    background-color:rgba(250, 235, 215, .5);
+}
+.etudes {
+    background-color: rgba(255, 255, 255, .65);
+}
+#photo-header {
+    clip-path: circle(40%);
+    width: 200px;
+}
+.xp {
+    color:aqua;
+}
+.date {
+    color:rgb(79, 44, 28);
 }
