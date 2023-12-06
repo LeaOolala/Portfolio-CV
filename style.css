@@ -1,6 +1,39 @@
 body  {
     background-color: rgb(79, 44, 28);
-    padding: 1%
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8rem;
+}
+main {
+    width: 100vw;
+}
+.parcours {
+    display: flex;
+    width: 100vw;
+}
+.xp, 
+.etudes {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#photo-header {
+    clip-path: circle(50%);
+    width: 200px;
+
+}
+.date, 
+.xp h2 {
+    color:rgb(79, 44, 28);
+
 }
 * 
 h1, 
@@ -8,24 +41,20 @@ h2,
 h3,
 p  {
     color: rgb(252, 252, 252);
+
 }
 
-.xp, .etudes, .why {
+.xp, 
+.etudes, 
+.why {
     background-color:antiquewhite;
+
 }
 .competences {
     background-color:rgba(250, 235, 215, .5);
+
 }
 .etudes {
     background-color: rgba(255, 255, 255, .65);
-}
-#photo-header {
-    clip-path: circle(40%);
-    width: 200px;
-}
-.xp {
-    color:aqua;
-}
-.date {
-    color:rgb(79, 44, 28);
+
 }
