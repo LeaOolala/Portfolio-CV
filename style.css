@@ -55,6 +55,10 @@ header p {
 .parcours h3 {
     font-size: 20pt;
 }
+.why p,
+.about p {
+    font-size: 14pt;
+}
 /*Font color*/
 .date {
     color:rgb(79, 44, 28);
