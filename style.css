@@ -1,5 +1,5 @@
 body  {
-    background-color: rgb(79, 44, 28);
+    background-color: #3E1E17;
     padding: 0%;
     margin: 0%;
     width: 100vw;
@@ -10,9 +10,17 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 8rem;
+    height:30vw;
 }
 main {
     width: 100vw;
+}
+section {
+    padding: 4rem;
+}
+h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .parcours {
     display: flex;
@@ -25,36 +33,50 @@ main {
     flex-direction: column;
     align-items: center;
 }
+.competences {
+}
+/* Profile pic*/
 #photo-header {
-    clip-path: circle(50%);
-    width: 200px;
+    width: 400px;
 
 }
-.date, 
-.xp h2 {
+/*Font size*/
+header h1 {
+    font-size: 65pt;
+}
+header p {
+    font-size: 20pt;
+}
+/*Font color*/
+.date {
     color:rgb(79, 44, 28);
 
 }
-* 
-h1, 
-h2,
-h3,
-p  {
+header  {
     color: rgb(252, 252, 252);
 
 }
-
-.xp, 
+.xp {
+    color: #3E1E17;
+}
 .etudes, 
+.about {
+    color: rgb(194, 157, 123);
+}
+.competences,
 .why {
-    background-color:antiquewhite;
+    color:antiquewhite;
+}
+/* Background color*/
+.xp, 
+.why {
+    background-color:rgb(194, 157, 123);
 
 }
 .competences {
-    background-color:rgba(250, 235, 215, .5);
-
+    background-color:rgba(147, 119, 99, 0.65);
 }
 .etudes {
-    background-color: rgba(255, 255, 255, .65);
+    background-color: antiquewhite;
 
 }
