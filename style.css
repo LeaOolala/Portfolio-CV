@@ -51,10 +51,20 @@ h2 {
     justify-content: center;
     border-radius: 40px;
 }
+.sectionTrois {
+    padding: 0;
+    text-align: center;
+}
 .competences {
+    display: flex;
+    justify-content: space-around;
 }
 .date {
     margin: 0 auto;
+}
+.footer,
+.contact {
+    margin: 1rem;
 }
 /* Profile pic*/
 #photo-header {
@@ -78,7 +88,9 @@ header p {
     font-size: 14pt;
 }
 /*Font color*/
-.date {
+.date,
+.langues h3,
+.languages h3 {
     color:rgb(79, 44, 28);
 
 }
@@ -86,24 +98,28 @@ header  {
     color: rgb(252, 252, 252);
 
 }
-.xp {
+.xp,
+.email,
+.telephone,
+*footer,
+.sectionTrois h2 {
     color: #3E1E17;
 }
 .etudes, 
 .about {
     color: rgb(194, 157, 123);
 }
-.competences,
 .why {
     color:antiquewhite;
 }
 /* Background color*/
 .xp, 
-.why {
+.why,
+footer {
     background-color:rgb(194, 157, 123);
 
 }
-.competences {
+.sectionTrois {
     background-color:rgba(147, 119, 99, 0.65);
 }
 .etudes {
